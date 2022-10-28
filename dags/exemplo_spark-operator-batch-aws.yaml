@@ -19,7 +19,7 @@ spec:
   mode: cluster
   image: "docker.io/neylsoncrepalde/spark-operator:v3.0.0-aws"
   imagePullPolicy: Always
-  mainApplicationFile: https://raw.githubusercontent.com/almirferr/pipeline-combustiveis/main/teste.py
+  mainApplicationFile: https://raw.githubusercontent.com/almirferr/Airflow-Igti/dev/dags/pyspark/teste.py
   sparkVersion: "3.0.0"
   restartPolicy:
     type: Never
